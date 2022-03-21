@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.boekvlucht.BoekvluchtController">
+    <children>
+        <Label layoutX="44.0" layoutY="47.0" text="vlucht selecteren" />
+        <ComboBox layoutX="44.0" layoutY="77.0" prefWidth="150.0" promptText="vertrekpunt" />
+        <ComboBox layoutX="225.0" layoutY="77.0" prefWidth="150.0" promptText="bestemming" />
+        <ComboBox layoutX="405.0" layoutY="77.0" prefWidth="150.0" promptText="vertrektijd" />
+        <Label layoutX="44.0" layoutY="132.0" text="klant gegevens" />
+        <Label layoutX="44.0" layoutY="157.0" text="voornaam" textFill="#0000009a">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <TextField layoutX="44.0" layoutY="172.0" promptText="Messina" />
+        <TextField layoutX="225.0" layoutY="172.0" promptText="Cake" />
+        <Label layoutX="225.0" layoutY="156.0" text="achternaam" textFill="#00000099">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="44.0" layoutY="227.0" text="straat" textFill="#00000099">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <TextField layoutX="43.0" layoutY="243.0" prefHeight="26.0" prefWidth="301.0" promptText="straatnaam" />
+        <TextField layoutX="376.0" layoutY="243.0" prefHeight="26.0" prefWidth="52.0" promptText="10" />
+        <Label layoutX="376.0" layoutY="226.0" text="Label" textFill="#00000099">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="43.0" layoutY="300.0" text="woonplaats" textFill="#00000099">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <TextField layoutX="42.0" layoutY="316.0" promptText="Amsterdam" />
+        <Label layoutX="42.0" layoutY="373.0" text="Aantal stoelen" textFill="#00000099">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <TextField layoutX="43.0" layoutY="388.0" prefHeight="26.0" prefWidth="74.0" promptText="2" />
+        <ComboBox layoutX="134.0" layoutY="389.0" prefHeight="26.0" prefWidth="117.0" promptText="klasse" />
+        <Button layoutX="42.0" layoutY="432.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="103.0" text="cancel" />
+        <Button layoutX="451.0" layoutY="432.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="103.0" text="vlucht boeken" />
+    </children>
+</AnchorPane>
